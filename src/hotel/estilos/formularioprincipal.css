@@ -1,0 +1,27 @@
+/*
+ * Stylesheet defining effects for the main image and button elements in the JavaFX application.
+ */
+
+/* Style for the main image */
+.imagen-principal {
+    /* Applies a subtle drop shadow around the main image for a highlighted effect */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 0, 0, 2, 2);
+}
+
+/* General style for buttons */
+.button {
+    /* Sets a rounded border for the button */
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    /* Applies a soft drop shadow to give the button a slight elevation effect */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 0, 0, 2, 2);
+}
+
+/* Style for buttons on hover */
+.button:hover {
+    /* Maintains the rounded border */
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    /* Increases the intensity of the shadow to create a lifted effect on hover */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 0, 0, 5, 5);
+}

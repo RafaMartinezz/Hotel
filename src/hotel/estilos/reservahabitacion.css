@@ -1,0 +1,20 @@
+/*
+ * Styles for buttons, including rounded corners and shadow effects.
+ */
+
+.button {
+    /* Applies rounded corners to the button background */
+    -fx-background-radius: 10px;
+    /* Applies rounded corners to the button border */
+    -fx-border-radius: 10px;
+    /* Adds a subtle drop shadow effect to create a slight elevation */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 0, 0, 2, 2);
+}
+
+.button:hover {
+    /* Maintains the rounded corners on hover */
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    /* Increases the intensity of the drop shadow when the button is hovered, creating a lifted effect */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 0, 0, 5, 5);
+}

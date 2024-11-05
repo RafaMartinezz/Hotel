@@ -1,0 +1,22 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#PaneEvento {
+    -fx-background-color: #cccccc;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+.button {
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 0, 0, 2, 2);
+}
+
+.button:hover {
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 0, 0, 5, 5);
+}
+

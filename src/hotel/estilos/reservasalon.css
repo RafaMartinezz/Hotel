@@ -1,0 +1,29 @@
+/*
+ * Styles for Pane and Button elements with rounded corners and shadow effects.
+ */
+
+ #PaneEvento {
+    /* Sets a light grey background color for the Pane component */
+    -fx-background-color: #cccccc;
+    /* Adds rounded corners to the Pane’s background */
+    -fx-background-radius: 10px;
+    /* Adds rounded corners to the Pane’s border */
+    -fx-border-radius: 10px;
+}
+
+.button {
+    /* Applies rounded corners to the button background */
+    -fx-background-radius: 10px;
+    /* Applies rounded corners to the button border */
+    -fx-border-radius: 10px;
+    /* Adds a subtle shadow to the button, creating a slight elevation effect */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 0, 0, 2, 2);
+}
+
+.button:hover {
+    /* Maintains rounded corners on hover */
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    /* Increases the shadow effect on hover, making the button appear more lifted */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 0, 0, 5, 5);
+}
